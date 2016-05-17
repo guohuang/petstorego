@@ -4,6 +4,6 @@ install:
   - go get -d -v .
 
 script:
-  - go build -v $TRAVIS_BUILD_DIR
-  - go test -v $TRAVIS_BUILD_DIR
+  - go build -v ./petstorego
+  - go test -v ./petstorego
 
