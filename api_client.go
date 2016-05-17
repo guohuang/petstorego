@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"reflect"
 	"strings"
-ss
+
 	"github.com/go-resty/resty"
 )
 
