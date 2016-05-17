@@ -4,6 +4,6 @@ install:
   - go get -d -v .
 
 script:
-  - go build -v ./petstorego
-  - go test -v ./petstorego
+  - go build -v ./
+  - go test -v ./
 
